@@ -1,10 +1,10 @@
 import {time,loadFixture} from "@nomicfoundation/hardhat-network-helpers";
 import { anyValue } from "@nomicfoundation/hardhat-chai-matchers/withArgs";
-import {expect} from "chai";
 import {ethers} from "hardhat";
 
 describe("Test mytoken",function(){
-    //define a fixture
+    //defiimport {expect} from "chai";
+ne a fixture
     async function deployFixtrue() {
         const initialSupply = ethers.utils.parseEther("2000.0");
         const MyToken = await ethers.getContractFactory("MyToken");
